@@ -1,0 +1,19 @@
+[project]
+name = "revoltbots.py"
+version = "0.0.2"
+authors = [
+  { name="Xynnix", email="admin@revoltbots.org" },
+]
+description = "A small package for the revoltbots api!"
+readme = "README.md"
+
+[project.urls]
+    "Homepage" = "https://github.com/revoltbots/revoltbots.py"
+    "Bug Tracker" = "https://github.com/revoltbots/revoltbots.py/issues"
+
+[options]
+package_dir = "src"
+python_requires = ">=3.8"
+
+[options.packages.find]
+where = "src"
